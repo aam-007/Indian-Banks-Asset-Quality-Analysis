@@ -1,0 +1,30 @@
+                    PanelOLS Estimation Summary                    
+Dep. Variable:   ,Net Profit (cr) ,  R-squared:           ,0.2137  
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,0.0218  
+No. Observations:,180             ,  R-squared (Within):  ,0.2137  
+Date:            ,Sun, Mar 01 2026,  R-squared (Overall): ,0.1595  
+Time:            ,00:26:13        ,  Log-likelihood       ,-1908.2 
+Cov. Estimator:  ,Unadjusted      ,                       ,        
+                 ,                ,  F-statistic:         ,15.219  
+Entities:        ,9               ,  P-value              ,0.0000  
+Avg Obs:         ,20.000          ,  Distribution:        ,F(3,168)
+Min Obs:         ,20.000          ,                       ,        
+Max Obs:         ,20.000          ,  F-statistic (robust):,15.219  
+                 ,                ,  P-value              ,0.0000  
+Time periods:    ,20              ,  Distribution:        ,F(3,168)
+Avg Obs:         ,9.0000          ,                       ,        
+Min Obs:         ,9.0000          ,                       ,        
+Max Obs:         ,9.0000          ,                       ,        
+                 ,                ,                       ,        
+                                 Parameter Estimates                                 
+                            ,Parameter ,Std. Err., T-stat,P-value, Lower CI ,Upper CI
+const                       ,-2.178e+04,6047.9   ,-3.6011,0.0004 ,-3.372e+04,-9839.5 
+Gross NPA (%)               ,-1002.5   ,280.99   ,-3.5677,0.0005 ,-1557.2   ,-447.74 
+Provision Coverage Ratio (%),122.80    ,57.763   ,2.1259 ,0.0350 ,8.7642    ,236.83  
+CAR(%)                      ,1652.3    ,361.06   ,4.5762 ,0.0000 ,939.47    ,2365.1  
+
+F-test for Poolability: 10.020
+P-value: 0.0000
+Distribution: F(8,168)
+
+Included effects: Entity

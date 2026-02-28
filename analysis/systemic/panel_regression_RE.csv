@@ -1,0 +1,24 @@
+                  RandomEffects Estimation Summary                 
+Dep. Variable:   ,Net Profit (cr) ,  R-squared:           ,0.2089  
+Estimator:       ,RandomEffects   ,  R-squared (Between): ,0.0272  
+No. Observations:,180             ,  R-squared (Within):  ,0.2136  
+Date:            ,Sun, Mar 01 2026,  R-squared (Overall): ,0.1609  
+Time:            ,00:26:13        ,  Log-likelihood       ,-1911.1 
+Cov. Estimator:  ,Unadjusted      ,                       ,        
+                 ,                ,  F-statistic:         ,15.490  
+Entities:        ,9               ,  P-value              ,0.0000  
+Avg Obs:         ,20.000          ,  Distribution:        ,F(3,176)
+Min Obs:         ,20.000          ,                       ,        
+Max Obs:         ,20.000          ,  F-statistic (robust):,15.490  
+                 ,                ,  P-value              ,0.0000  
+Time periods:    ,20              ,  Distribution:        ,F(3,176)
+Avg Obs:         ,9.0000          ,                       ,        
+Min Obs:         ,9.0000          ,                       ,        
+Max Obs:         ,9.0000          ,                       ,        
+                 ,                ,                       ,        
+                                 Parameter Estimates                                 
+                            ,Parameter ,Std. Err., T-stat,P-value, Lower CI ,Upper CI
+const                       ,-2.139e+04,6591.7   ,-3.2444,0.0014 ,-3.439e+04,-8377.1 
+Gross NPA (%)               ,-984.80   ,274.92   ,-3.5821,0.0004 ,-1527.4   ,-442.24 
+Provision Coverage Ratio (%),124.27    ,56.669   ,2.1929 ,0.0296 ,12.430    ,236.11  
+CAR(%)                      ,1614.6    ,352.97   ,4.5744 ,0.0000 ,918.03    ,2311.2  
